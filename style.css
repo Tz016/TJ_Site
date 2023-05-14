@@ -1,0 +1,87 @@
+#sorry{
+    display: block;
+    position: absolute;
+    top:10%;
+    width:70%;
+    left:15%;
+    color:rgb(126, 202, 253);
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Permanent Marker', cursive;
+}
+.contact{   
+    display: block;
+    position:relative;
+    margin-top: 25%;
+    left:20%;
+    line-height: 90%;
+    padding-top:3%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    color:white;
+    background-color: rgba(80, 181, 249, 0.273);
+    font-size:40px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+#topic{
+  position:relative;
+  color:white;
+  margin-top: -13%;
+  left:57%;
+  text-shadow: 3px 2px 1px rgba(39, 104, 147, 0.944);
+  font-size:80px;
+  font-family: 'Permanent Marker', cursive;
+
+}
+.wechat {
+    position: relative;
+    display: block;
+    
+  }
+
+  .wechat:hover .qrcode {
+    visibility: visible;
+  }
+  
+  .wechat .qrcode {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 0%;
+    transform: translateX(-50%);
+    background-color: rgba(203, 234, 255, 0.338);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    z-index: 1;
+  }
+  .wechat:hover{
+    color:rgba(39, 104, 147, 0.944);
+  }
+  
+  .wechat .qrcode::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(203, 234, 255, 0.338);
+  }
+ a{
+    color:white;
+    text-decoration: none;
+ }
+ a:hover{
+    color:rgba(39, 104, 147, 0.944);
+ }
+  
+  
+  
+  
+  
